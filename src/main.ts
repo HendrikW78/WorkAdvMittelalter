@@ -20,12 +20,11 @@ WA.onInit().then(() => {
 
     WA.room.onLeaveLayer('clockZone').subscribe(closePopup)
 
-
-    WA.room.area.onEnter('willkommen').subscribe(() => {
+    WA.room.area.onEnter('schildEntry').subscribe(() => {
         currentPopup = WA.ui.openPopup("popWillkommen","Willkommen im Mittelalter",[]);
     })
 
-    WA.room.area.onLeave('willkommen').subscribe(closePopup)
+    WA.room.area.onLeave('schildEntry').subscribe(closePopup)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {

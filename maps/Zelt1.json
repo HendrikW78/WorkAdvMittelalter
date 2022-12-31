@@ -92,6 +92,12 @@
                  "id":54,
                  "name":"startZelt",
                  "opacity":1,
+                 "properties":[
+                        {
+                         "name":"startLayer",
+                         "type":"bool",
+                         "value":true
+                        }],
                  "type":"tilelayer",
                  "visible":true,
                  "width":20,

@@ -965,7 +965,6 @@
          "y":0
         }, 
         {
-         "class":"area",
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
@@ -988,8 +987,8 @@
                  "name":"popWillkommen",
                  "rotation":0,
                  "visible":true,
-                 "width":214.5,
-                 "x":713.25,
+                 "width":383.5,
+                 "x":658.25,
                  "y":2318.25
                 }, 
                 {
@@ -1024,7 +1023,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"Lagerfeuer1.mp3?raw=true"
+                         "value":"\/Lagerfeuer1.mp3?raw=true"
                         }],
                  "rotation":0,
                  "visible":true,

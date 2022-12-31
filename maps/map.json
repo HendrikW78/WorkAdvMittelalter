@@ -1031,7 +1031,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"Lagerfeuer1.mp3?raw=true"
+                 "value":"https:\/\/github.com\/HendrikW78\/Workadv2\/blob\/master\/toene\/Lagerfeuer1.mp3?raw=true"
                 }],
          "type":"objectgroup",
          "visible":true,

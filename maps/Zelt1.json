@@ -290,10 +290,10 @@
             0, 0, 0, 0, 3356, 3357, 3357, 3357, 3357, 3357, 3357, 3357, 3357, 3357, 3357, 3358, 0, 0, 0, 0,
             0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3359, 0, 0, 0, 0,
             0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3359, 0, 0, 0, 0,
-            0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4986, 3359, 0, 0, 0, 0,
+            0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5034, 3359, 0, 0, 0, 0,
             0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4986, 3359, 0, 0, 0, 0,
+            0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5034, 3359, 0, 0, 0, 0,
             0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3359, 0, 0, 0, 0,
             0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3359, 0, 0, 0, 0,
             0, 0, 0, 0, 3356, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3359, 0, 0, 0, 0,
@@ -412,7 +412,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"\/Lagerfeuer1.mp3"
+                         "value":"https:\/\/github.com\/HendrikW78\/WorkAdvMittelalter\/blob\/master\/public\/Lagerfeuer2.mp3?raw=true"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -742,18 +742,18 @@
          "columns":12,
          "firstgid":4724,
          "image":"..\/tilesets\/bonfire.png",
-         "imageheight":256,
+         "imageheight":384,
          "imagewidth":384,
          "margin":0,
          "name":"bonfire",
          "spacing":0,
-         "tilecount":96,
+         "tilecount":144,
          "tileheight":32,
          "tilewidth":32
         }, 
         {
          "columns":6,
-         "firstgid":4820,
+         "firstgid":4868,
          "image":"..\/tilesets\/Special_entrys.png",
          "imageheight":64,
          "imagewidth":192,
@@ -766,7 +766,7 @@
         }, 
         {
          "columns":16,
-         "firstgid":4832,
+         "firstgid":4880,
          "image":"..\/tilesets\/decorations-medieval.png",
          "imageheight":2048,
          "imagewidth":512,
@@ -796,7 +796,7 @@
         }, 
         {
          "columns":8,
-         "firstgid":5856,
+         "firstgid":5904,
          "image":"..\/tilesets\/witchtiles_2.png",
          "imageheight":128,
          "imagewidth":256,
@@ -809,7 +809,7 @@
         }, 
         {
          "columns":32,
-         "firstgid":5888,
+         "firstgid":5936,
          "image":"..\/tilesets\/terrain_atlas.png",
          "imageheight":1024,
          "imagewidth":1024,
@@ -822,7 +822,7 @@
         }, 
         {
          "columns":32,
-         "firstgid":6912,
+         "firstgid":6960,
          "image":"..\/tilesets\/terrain_3.png",
          "imageheight":1024,
          "imagewidth":1024,
@@ -836,7 +836,7 @@
     
         {
          "columns":64,
-         "firstgid":7936,
+         "firstgid":7984,
          "image":"..\/tilesets\/[A]Water2_pipo.png",
          "imageheight":192,
          "imagewidth":2048,
@@ -849,7 +849,7 @@
         }, 
         {
          "columns":8,
-         "firstgid":8320,
+         "firstgid":8368,
          "image":"..\/tilesets\/[A]Water7_pipo.png",
          "imageheight":192,
          "imagewidth":256,

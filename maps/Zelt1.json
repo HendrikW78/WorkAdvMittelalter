@@ -61,6 +61,12 @@
                  "id":55,
                  "name":"exitZelt",
                  "opacity":1,
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"map.json#startZelt1"
+                        }],
                  "type":"tilelayer",
                  "visible":true,
                  "width":20,

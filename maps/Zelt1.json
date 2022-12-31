@@ -412,7 +412,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"public\/Lagerfeuer1.mp3"
+                         "value":"..\/public\/Lagerfeuer1.mp3"
                         }],
                  "rotation":0,
                  "visible":true,

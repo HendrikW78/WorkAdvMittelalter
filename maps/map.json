@@ -1030,7 +1030,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"Lagerfeuer1.mp3"
+                 "value":"..\/public\/Lagerfeuer1.mp3?raw=true"
                 }],
          "type":"objectgroup",
          "visible":true,

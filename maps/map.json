@@ -1015,6 +1015,17 @@
                  "height":100.5,
                  "id":21,
                  "name":"Feuer",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"Lagerfeuer1.mp3?raw=true"
+                        }],
                  "rotation":0,
                  "visible":true,
                  "width":109.5,
@@ -1022,17 +1033,6 @@
                  "y":2275
                 }],
          "opacity":1,
-         "properties":[
-                {
-                 "name":"audioLoop",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
-                 "name":"playAudio",
-                 "type":"string",
-                 "value":"https:\/\/github.com\/HendrikW78\/Workadv2\/blob\/master\/toene\/Lagerfeuer1.mp3?raw=true"
-                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,

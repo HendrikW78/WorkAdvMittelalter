@@ -958,12 +958,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/vhXXC_-wknc&autoplay=1"
-                        }, 
-                        {
-                         "name":"openWebsitePolicy",
-                         "type":"string",
-                         "value":"autoplay"
+                         "value":"https:\/\/www.youtube.com\/embed\/vhXXC_-wknc"
                         }],
                  "rotation":0,
                  "visible":true,

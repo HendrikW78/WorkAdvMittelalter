@@ -1,4 +1,5 @@
 /// <reference types="@workadventure/iframe-api-typings" />
+// Mittelalter
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
@@ -18,6 +19,13 @@ WA.onInit().then(() => {
     })
 
     WA.room.onLeaveLayer('clockZone').subscribe(closePopup)
+
+
+    WA.room.area.onEnter('willkommen').subscribe(() => {
+        currentPopup = WA.ui.openPopup("popWillkommen","Willkommen im Mittelalter",[]);
+    })
+
+    WA.room.area.onLeave('willkommen').subscribe(closePopup)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {

@@ -963,7 +963,7 @@
                         {
                          "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"autoplay"
+                         "value":"autoplay=1"
                         }],
                  "rotation":0,
                  "visible":true,

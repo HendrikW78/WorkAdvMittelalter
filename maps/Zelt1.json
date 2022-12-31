@@ -167,10 +167,10 @@
             0, 0, 0, 0, 3, 3, 3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0,
             0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0,
             0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0,
-            0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0,
+            0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0,
             0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0,
             0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0,
-            0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0,
+            0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0,
             0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0,
             0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0,
             0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0,
@@ -397,7 +397,29 @@
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"area",
+                 "height":164,
+                 "id":20,
+                 "name":"Fackeln",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"\/public\/Lagerfeuer1.mp3"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":62.6666666666666,
+                 "x":434,
+                 "y":590.666666666667
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -487,7 +509,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":20,
+ "nextobjectid":21,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -813,21 +835,8 @@
         },
     
         {
-         "columns":8,
-         "firstgid":7936,
-         "image":"..\/tilesets\/pipo-map001.png",
-         "imageheight":544,
-         "imagewidth":256,
-         "margin":0,
-         "name":"pipo-map001",
-         "spacing":0,
-         "tilecount":136,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
          "columns":64,
-         "firstgid":8072,
+         "firstgid":7936,
          "image":"..\/tilesets\/[A]Water2_pipo.png",
          "imageheight":192,
          "imagewidth":2048,
@@ -840,7 +849,7 @@
         }, 
         {
          "columns":8,
-         "firstgid":8456,
+         "firstgid":8320,
          "image":"..\/tilesets\/[A]Water7_pipo.png",
          "imageheight":192,
          "imagewidth":256,

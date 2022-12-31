@@ -945,9 +945,9 @@
                  "name":"popWillkommen",
                  "rotation":0,
                  "visible":true,
-                 "width":100.5,
-                 "x":771.25,
-                 "y":2325.25
+                 "width":214.5,
+                 "x":713.25,
+                 "y":2318.25
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1403,6 +1403,19 @@
          "name":"decorations-medieval",
          "spacing":0,
          "tilecount":1024,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":8,
+         "firstgid":5856,
+         "image":"..\/tilesets\/witchtiles_2.png",
+         "imageheight":128,
+         "imagewidth":256,
+         "margin":0,
+         "name":"witchtiles_2",
+         "spacing":0,
+         "tilecount":32,
          "tileheight":32,
          "tilewidth":32
         }],
